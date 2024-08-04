@@ -1,0 +1,7 @@
+.nav-link {
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+}
+.nav-link:hover {
+    color: gray;
+}

@@ -1,0 +1,18 @@
+.background {
+    background:
+        linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7)),
+        url("../../../assets/images/signIn.png");
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.btn-color {
+    background-color: lavender;
+}
+
+.btn-color:hover {
+    background-color: rgb(154, 154, 255);
+}

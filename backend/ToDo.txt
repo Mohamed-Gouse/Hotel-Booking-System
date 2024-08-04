@@ -1,0 +1,18 @@
+Booking check ✅
+Review ✅
+Hotel - Social media
+Celery - Booking, Registeration ✅
+
+Loader in every page
+Payment to Admin
+
+
+
+Pendings:
+
+Resolve the celery issue
+Page not found issue
+handling room real time booking
+Implement email notifications
+
+celery -A backend beat -l info 
