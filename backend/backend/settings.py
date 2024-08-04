@@ -97,16 +97,6 @@ CHANNEL_LAYERS = {
     },
 }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'hbsbackend',
-        'USER': 'hbs_admin',
-        'PASSWORD': 'hbs_admin#0141',
-        'HOST': 'hbsbackend.cl26wcam0gp8.eu-north-1.rds.amazonaws.com',
-        'PORT': '5432',
-    }
-}
 
 # DATABASES = {
 #     'default': {
@@ -158,8 +148,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'm.gouse7736@gmail.com'
-EMAIL_HOST_PASSWORD = 'keol gtrk cdbm fhhn'
+EMAIL_HOST_USER = 'mail'
+EMAIL_HOST_PASSWORD = 'key'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (

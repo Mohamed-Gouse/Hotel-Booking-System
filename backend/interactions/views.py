@@ -16,9 +16,6 @@ from geopy.distance import distance as geopy_distance
 # from asgiref.sync import async_to_sync
 
 
-stripe.api_key = 'sk_test_51PZB3hHUq15j5kNH49RUpBczC3FsAMxWhmAxvKgzNUn0aShp5TqNdQd6YMqMoTN5msIN8BgQ7M8Hss1bKW0heB3S00F1A3E21f'
-
-
 class WishlistView(viewsets.ModelViewSet):
     serializer_class = WishlistSerializer
     permission_classes = [permissions.IsAuthenticated]

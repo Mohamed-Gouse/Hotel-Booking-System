@@ -9,7 +9,7 @@ import Swal from "sweetalert2";
 import Api from "./services/Api";
 import { loadStripe } from "@stripe/stripe-js";
 
-const stripePromise = loadStripe("pk_test_51PZB3hHUq15j5kNHFP1X7eruKcwg9PC41lvrkjurPfDtCtwP70bEu7d8h5ols1PihXWYSZ7od0ur4t23wzZ0eiku00E1elvKzF");
+const stripePromise = loadStripe("KEY");
 
 const CheckoutForm = ({ billInfo, handleBooking }) => {
   const [error, setError] = useState(null);
